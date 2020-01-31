@@ -34,9 +34,12 @@ target 'AwesomeProject' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  pod 'RNMyLibrary', :path => '../node_modules/react-native-my-library'
 
-  pod 'react-native-config', :path => '../node_modules/react-native-config'
+
+
+
+
+
 
   target 'AwesomeProjectTests' do
     inherit! :search_paths

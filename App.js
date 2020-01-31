@@ -2,10 +2,10 @@ import React, {Component} from 'react';
 import {Text, View, StyleSheet} from 'react-native';
 import {Provider} from 'react-redux';
 import {createAppContainer} from 'react-navigation';
-import AppNavigator from './app/components/AppNavigator/index';
+import AppNavigator from './src/app/components/AppNavigator';
 import 'react-native-gesture-handler';
 const AppContainer = createAppContainer(AppNavigator);
-import configureStore from './app/store';
+import configureStore from './src/app/store';
 const store = configureStore();
 
 export default class App extends Component {
